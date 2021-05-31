@@ -8,7 +8,6 @@ import com.kondratenko.busparkemploeesworkcontrol.service.RouteCheckDocumentServ
 import com.kondratenko.busparkemploeesworkcontrol.service.RouteService;
 import com.kondratenko.busparkemploeesworkcontrol.service.ScheduleService;
 import com.kondratenko.busparkemploeesworkcontrol.utils.DateTimeUtils;
-import com.sun.deploy.util.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
@@ -22,7 +21,6 @@ import javax.validation.Valid;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
-import java.util.Objects;
 import java.util.Optional;
 
 @Controller
